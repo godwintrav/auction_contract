@@ -91,7 +91,7 @@ contract Auction {
         address payable recipient;
         uint value;
 
-        if(auctionState == State.Canceled){// auction was canccelled
+        if(auctionState == State.Canceled){// auction was cancelled
             recipient = payable(msg.sender);
             value = bids[msg.sender];
         }else{// auction ended not cancelled
