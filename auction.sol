@@ -31,7 +31,7 @@ contract Auction {
         auctionState = State.Running;
         startBlock = block.number;
         endBlock = startBlock + 3;
-        ipfsHash = " ";
+        ipfsHash = "";
         bidIncrement = 1000000000000000000;
     }
 
